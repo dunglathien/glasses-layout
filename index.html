@@ -34,15 +34,15 @@
                         <div class="swiper__text">
                             <h3>No more Inventory problems.</h3>
                             <div class="carousel__text">
-                                <div class="carousel__items">
+                                <div class="carousel__item">
                                     <p><i class="fa fa-circle"></i></p>
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, iste?.</p>
                                 </div>
-                                <div class="carousel__items">
+                                <div class="carousel__item">
                                     <p><i class="fa fa-circle"></i></p>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, veniam..</p>
                                 </div>
-                                <div class="carousel__items">
+                                <div class="carousel__item">
                                     <p><i class="fa fa-circle"></i></p>
                                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, rerum?.</p>
                                 </div>
@@ -58,15 +58,15 @@
                         <div class="swiper__text">
                             <h3>No more Inventory problems.</h3>
                             <div class="carousel__text">
-                                <div class="carousel__items">
+                                <div class="carousel__item">
                                     <p><i class="fa fa-circle"></i></p>
                                     <p>Lorem, ipsum dolor.</p>
                                 </div>
-                                <div class="carousel__items">
+                                <div class="carousel__item">
                                     <p><i class="fa fa-circle"></i></p>
                                     <p>Lorem, ipsum dolor.</p>
                                 </div>
-                                <div class="carousel__items">
+                                <div class="carousel__item">
                                     <p><i class="fa fa-circle"></i></p>
                                     <p>Lorem, ipsum dolor.</p>
                                 </div>
@@ -79,24 +79,24 @@
                     </div>
                     <div class="carousel__items swiper-slide">
                         <img src="./img/banner3.jpg" alt="">
-                        <div class="swiper__text">
-                            <div class="swiper__text3">
-                                <h3>No more Inventory problems.</h3>
-                                <div class="carousel__text">
-                                    <div class="carousel__items">
-                                        <p><i class="fa fa-circle"></i></p>
-                                        <p>Lorem, ipsum dolor.</p>
-                                    </div>
-                                    <div class="carousel__items">
-                                        <p><i class="fa fa-circle"></i></p>
-                                        <p>Lorem, ipsum dolor.</p>
-                                    </div>
-                                    <div class="carousel__items">
-                                        <p><i class="fa fa-circle"></i></p>
-                                        <p>Lorem, ipsum dolor.</p>
-                                    </div>
+                        <div class="swiper__text" id="para3">
+
+                            <h3>No more Inventory problems.</h3>
+                            <div class="carousel__text">
+                                <div class="carousel__item">
+                                    <p><i class="fa fa-circle"></i></p>
+                                    <p>Lorem, ipsum dolor.</p>
+                                </div>
+                                <div class="carousel__item">
+                                    <p><i class="fa fa-circle"></i></p>
+                                    <p>Lorem, ipsum dolor.</p>
+                                </div>
+                                <div class="carousel__item">
+                                    <p><i class="fa fa-circle"></i></p>
+                                    <p>Lorem, ipsum dolor.</p>
                                 </div>
                             </div>
+
                             <div class="button">
                                 <button class="btn btn-primary">Contact Us</button>
                                 <button class="btn btn-success">Start Now</button>
@@ -108,7 +108,7 @@
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-pagination"></div>
-                
+
             </div>
         </div>
 
@@ -117,7 +117,7 @@
         <h2>OUR PROCESS</h2>
         <div class="process__content ">
             <div class="process__items">
-                <div class="process__icon"><img src="./img/1.jpg" alt=""></div>
+                <div class="process__step"><img src="./img/1.jpg" alt=""></div>
                 <div class="process__text">
                     <img src="./img/order.jpg" alt="">
                     <div class="item__content">
@@ -128,7 +128,7 @@
                 </div>
             </div>
             <div class="process__items">
-                <div class="process__icon"><img src="./img/2.jpg" alt=""></div>
+                <div class="process__step"><img src="./img/2.jpg" alt=""></div>
                 <div class="process__text">
                     <img src="./img/setting.jpg" alt="">
                     <div class="item__content">
@@ -139,7 +139,7 @@
                 </div>
             </div>
             <div class="process__items">
-                <div class="process__icon"><img src="./img/3.jpg" alt=""></div>
+                <div class="process__step"><img src="./img/3.jpg" alt=""></div>
                 <div class="process__text">
                     <img src="./img/send.jpg" alt="">
                     <div class="item__content">
@@ -198,8 +198,12 @@
                 <div class="contact__payment"><a href="#">
                         <div class="paypal__img"> <img src="./img/paypal.jpg" alt=""></div>
                     </a></div>
-                <div class="contact__payment"> <a href="#"><img src="./img/Visa.jpg" alt=""></a> </div>
-                <div class="contact__payment"> <a href="#"><img src="./img/MasterCard_Logo.jpg" alt=""></a> </div>
+                <div class="contact__payment"> <a href="#">
+                    <div><img src="./img/Visa.jpg" alt=""></div>
+                </a> </div>
+                <div class="contact__payment"> <a href="#">
+                   <div> <img src="./img/MasterCard_Logo.jpg" alt=""></div>
+                </a> </div>
             </div>
         </div>
     </section>
@@ -238,7 +242,7 @@
                 prevEl: '.swiper-button-prev',
             },
 
-            
+
         })
     </script>
 
