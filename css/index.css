@@ -55,6 +55,7 @@ header {
 }
 .carousel__items img {
     width: 100%;
+    position: relative;
 }
 .swiper__text {
     font-size: 0.7rem;
@@ -73,13 +74,11 @@ header {
     text-align: left;
     width: 300px;
 }
-.carousel__items p {
+.carousel__item p {
     text-align: left;
     display: inline;
 }
-.carousel__items img {
-    position: relative;
-}
+
 .swiper__text {
     position: absolute;
     top: 140px;
@@ -233,7 +232,7 @@ header {
 /* FOOTER  */
 
 footer {
-    margin-bottom: 20px;
+    
     background-color: black;
     padding: 10px;
 }

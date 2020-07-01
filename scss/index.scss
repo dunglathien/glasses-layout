@@ -1,0 +1,14 @@
+$blue-color:#05e4e4;
+$orange-color:rgba(255,72,0,.788);
+$textFont:Montserrat,sans-serif,18px;
+
+.header__content{
+    a{
+        color: $orange-color;
+        font-size: 1.5rem;
+        padding:20px 10px;
+        p{
+            color: $blue-color;
+        }
+    }
+}
